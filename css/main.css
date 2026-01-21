@@ -6,8 +6,8 @@
             text-decoration: 0;
         }
         body {
-            font-family: 'Times New Roman', Times, serif
-                      
+            font-family: 'Times New Roman', Times, serif;       
+            background-color: #fff;              
         }
          * {
             margin: 0;
