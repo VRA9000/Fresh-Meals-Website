@@ -19,6 +19,22 @@
       html {
         scroll-behavior: smooth;
       }
+      nav span {
+        position: relative;
+      }
+      nav span .cart-number{
+        text-decoration: none;
+        position: absolute;
+        margin-top: -8px;
+        margin-left: -10px;
+        color: black;
+        background-color: rgb(1, 255, 14);
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        align-content: center;
+      }
       span {
         font-weight: bold;
         text-decoration: underline;
