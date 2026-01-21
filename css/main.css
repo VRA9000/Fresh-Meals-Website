@@ -1,0 +1,123 @@
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border: none;
+            text-decoration: 0;
+        }
+        body {
+            font-family: 'Times New Roman', Times, serif
+                      
+        }
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border: none;
+            text-decoration: none;
+        }
+      html {
+        scroll-behavior: smooth;
+      }
+      span {
+        font-weight: bold;
+        text-decoration: underline;
+        color: firebrick;
+      }
+      .wrapper {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+      }
+      header img {
+        width: 170px;
+        height: 170px;
+        padding: 20px;
+      }
+      nav a:nth-child(4) {
+        border-right: 1px solid gray;
+        margin-right: 10px;
+      }
+      nav .fa-solid{
+        font-size: 26px ;
+        color: gray;
+        transition: .5s all;
+        cursor: pointer;
+
+      }
+       nav .fa-solid:hover {
+        color: black;
+        scale: 1.2;
+       }
+  
+      nav a {
+           display: inline-block;
+           color: rgb(105, 105, 105);
+           font-weight: bold;
+           padding: 5px 10px;
+           transition: .7s all;
+           font-size: 16px;
+         }            
+          nav a:hover {
+          color: black;
+          text-decoration: underline;
+          text-underline-offset: 6px;
+          
+        }
+
+        
+        
+          footer {
+            margin-top: 200px;
+            height:160px;
+            width: 100%;
+            background-color: rgb(245, 245, 245);
+            display: flex;
+            justify-content: space-evenly;
+            padding: 30px;
+          }
+          footer div {
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            line-height: 120%;         }
+          footer div h3 {
+            text-align: left;
+            margin-bottom: 20px;
+          }
+          footer div p {
+            text-align: left;
+          }
+           footer div a {
+            text-decoration: underline;
+            color: black;
+            color: #333;
+           }
+           footer div a:hover {
+            color: gray;
+           
+           }
+    
+
+
+
+              /* ----------------MEDIA QUERIES-------------------- */
+
+           @media (max-width: 480px){
+            
+           }
+           @media (max-width: 900px){
+
+           }
+           @media (max-width: 1300px){
+
+           }
