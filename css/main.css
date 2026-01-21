@@ -154,6 +154,10 @@
                padding: 20px;
              }
              }
+             .three-cols {
+              display: flex;
+              flex-wrap: wrap;
+             }
             .three-cols .left-col {
               text-align: center;
               margin: auto;

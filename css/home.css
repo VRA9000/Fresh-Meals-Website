@@ -65,9 +65,12 @@
             width: 100%;
             display: flex;
             justify-content: space-between;
+            text-align: center;
+            margin: auto;
         }
         .two-cols div {
-          width: 48%;
+          width: 100%;
+          text-align: center;
         }
         
         .two-cols div:nth-child(1){
