@@ -46,7 +46,7 @@
            font-weight: bold;
            padding: 5px 10px;
            transition: .5s all;
-           font-size: 16px;
+           font-size: 20px;
          }            
           nav a:hover {
           color: black;
@@ -69,6 +69,7 @@
         .two-cols div {
           width: 48%;
         }
+        
         .two-cols div:nth-child(1){
           text-align: left;
         }
@@ -115,13 +116,13 @@
           gap: 1rem;
           margin-bottom: 3%;
         }
-        .four-cols div figure{
+       /*  .four-cols div figure{
           transition: .5s all;
           width: 23.5%;
           cursor: pointer;
           padding: 20px;
           justify-content: space-around;
-        }
+        } */
         .four-cols div figure:hover{
           box-shadow: 1px 1px 10px 1px rgb(226, 226, 226);
 
