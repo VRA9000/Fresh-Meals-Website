@@ -303,12 +303,14 @@
                   width: 100%;
                   background-color: rgb(240, 240, 240);
                   display: flex;
+                  flex-wrap: wrap;
+                  flex-direction: column;
                   justify-content: space-between;
                   padding: 30px;
                }
             footer div h3 {
                 text-align: left;
-                margin-bottom: 20px;
+               /*  margin-bottom: 20px; */
                 font-size: 1em;
               }
               footer div p {
