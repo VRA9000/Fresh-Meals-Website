@@ -147,7 +147,7 @@
            
 
            }
-           @media (max-width: 700px) and (min-width:581px){
+           @media (min-width:581px) and (max-width: 700px) {
             header img {
                width: 140px;
                height: 140px;
@@ -156,7 +156,8 @@
              }
              .three-cols {
               display: flex;
-              flex-wrap: wrap;
+              /* flex-wrap: wrap; */
+              flex-direction: row;
              }
             .three-cols .left-col {
               text-align: center;
@@ -298,11 +299,10 @@
 
             footer {
                   margin-top: 200px;
-                  height:max-content;
+                  height:400px;
                   width: 100%;
                   background-color: rgb(240, 240, 240);
                   display: flex;
-                  
                   justify-content: space-between;
                   padding: 30px;
                }
