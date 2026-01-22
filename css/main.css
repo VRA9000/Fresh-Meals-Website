@@ -105,6 +105,9 @@
           padding: 20px;
           justify-content: space-around;
         }
+        .four-cols div figure a{
+          margin-top:50px ;
+        }
 
         
         
